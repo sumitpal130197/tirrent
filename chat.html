@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, minimal-ui"
+    />
+    <title>Cryptex - Crypto Exchange Wallet Premium Mobile Template</title>
+    <link rel="stylesheet" href="vendor/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Overlay panel -->
+    <div class="body-overlay"></div>
+    <!-- Left panel -->
+    <div id="panel-left"></div>
+
+    <div class="page page--main" data-page="tables">
+      <!-- HEADER -->
+      <header class="header header--fixed">
+        <div class="header__inner">
+          <div class="header__logo header__logo--text">
+            <a href="index.html"><img src="/images/logos/logo.png" /></a>
+          </div>
+          <div class="header__icon open-panel" data-panel="left">
+            <img src="images/icons/user.svg" alt="image" title="image" />
+          </div>
+        </div>
+      </header>
+
+      <!-- PAGE CONTENT -->
+      <div
+        class="page__content page__content--full page__content--with-bottom-nav"
+      >
+        <div class="account-info">
+          <div class="account-info__title"></div>
+          <div class="account-info__total">Support</div>
+          <svg
+            class="account-info__svg"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+          >
+            <path d="M0,0 Q50,201 100,0 L100,100 0,100 Z" fill="#141515" />
+          </svg>
+        </div>
+        <div class="chatbox">
+          <div class="modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="msg-head">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="d-flex align-items-center" style="gap: 10px;">
+                      <div class="flex-shrink-0">
+                        <img
+                          class="img-fluid"
+                          src="https://mehedihtml.com/chatbox/assets/img/user.png"
+                          alt="user img"
+                        />
+                      </div>
+                      <div class="flex-grow-1 ms-3 user-name">
+                        <h3>Mehedi Hasan</h3>
+                        <p>front end developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal-body">
+                <div class="msg-body">
+                  <ul>
+                    <li class="sender">
+                      <p>Hey, Are you there?</p>
+                      <span class="time">10:06 am</span>
+                    </li>
+                    <li class="sender">
+                      <p>Hey, Are you there?</p>
+                      <span class="time">10:16 am</span>
+                    </li>
+                    <li class="repaly">
+                      <p>yes!</p>
+                      <span class="time">10:20 am</span>
+                    </li>
+                    <li class="sender">
+                      <p>Hey, Are you there?</p>
+                      <span class="time">10:26 am</span>
+                    </li>
+                    <li class="sender">
+                      <p>Hey, Are you there?</p>
+                      <span class="time">10:32 am</span>
+                    </li>
+                    <li class="repaly">
+                      <p>How are you?</p>
+                      <span class="time">10:35 am</span>
+                    </li>
+                    <li>
+                      <div class="divider">
+                        <h6>Today</h6>
+                      </div>
+                    </li>
+
+                    <li class="repaly">
+                      <p>yes, tell me</p>
+                      <span class="time">10:36 am</span>
+                    </li>
+                    <li class="repaly">
+                      <p>yes... on it</p>
+                      <span class="time">junt now</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="send-box">
+                <form action="">
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-label="message…"
+                    placeholder="Write message…"
+                  />
+
+                  <button type="button">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i> Send
+                  </button>
+                </form>
+
+                <div class="send-btns">
+                  <div class="attach">
+                    <div class="button-wrapper">
+                      <span class="label">
+                        <img
+                          class="img-fluid"
+                          src="https://mehedihtml.com/chatbox/assets/img/upload.svg"
+                          alt="image title"
+                        />
+                        attached file </span
+                      ><input
+                        type="file"
+                        name="upload"
+                        id="upload"
+                        class="upload-box"
+                        placeholder="Upload File"
+                        aria-label="Upload File"
+                      />
+                    </div>
+
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>Select template</option>
+                      <option>Template 1</option>
+                      <option>Template 2</option>
+                    </select>
+
+                    <div class="add-apoint">
+                      <a
+                        href="#"
+                        data-toggle="modal"
+                        data-target="#exampleModal4"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          fill="none"
+                        >
+                          <path
+                            d="M8 16C3.58862 16 0 12.4114 0 8C0 3.58862 3.58862 0 8 0C12.4114 0 16 3.58862 16 8C16 12.4114 12.4114 16 8 16ZM8 1C4.14001 1 1 4.14001 1 8C1 11.86 4.14001 15 8 15C11.86 15 15 11.86 15 8C15 4.14001 11.86 1 8 1Z"
+                            fill="#7D7D7D"
+                          ></path>
+                          <path
+                            d="M11.5 8.5H4.5C4.224 8.5 4 8.276 4 8C4 7.724 4.224 7.5 4.5 7.5H11.5C11.776 7.5 12 7.724 12 8C12 8.276 11.776 8.5 11.5 8.5Z"
+                            fill="#7D7D7D"
+                          ></path>
+                          <path
+                            d="M8 12C7.724 12 7.5 11.776 7.5 11.5V4.5C7.5 4.224 7.724 4 8 4C8.276 4 8.5 4.224 8.5 4.5V11.5C8.5 11.776 8.276 12 8 12Z"
+                            fill="#7D7D7D"
+                          ></path>
+                        </svg>
+                        Appoinment</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bottom-toolbar" class="bottom-toolbar"></div>
+    <!-- Social Icons Popup -->
+    <div id="popup-social"></div>
+
+    <!-- Alert -->
+    <div id="popup-alert"></div>
+
+    <!-- Notifications -->
+    <div id="popup-notifications"></div>
+
+    <script src="vendor/jquery/jquery-3.5.1.min.js"></script>
+    <script src="vendor/jquery/jquery.validate.min.js"></script>
+    <script src="vendor/swiper/swiper.min.js"></script>
+    <script src="js/swiper-init.js"></script>
+    <script src="js/jquery.custom.js"></script>
+    <script src="js/header-scroll.js"></script>
+  </body>
+</html>
